@@ -132,4 +132,9 @@ graph LR
 
 ## 5 - Aprovação
 
-###
+Matriz de Aprovação
+
+| Alteração | Data | Autor | Aprovador |
+| ----- | ----- | ----- | ----- |
+| 1.0 | 2026-03-27 | Equipe de Análise | Stakeholder |
+| 1.1 | 2026-04-10 | Equipe de Desenvolvimento | Equipe de Análise |
