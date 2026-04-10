@@ -74,6 +74,19 @@ O SGT será uma aplicação web responsiva com sincronização em nuvens.
 
 ---
 
+#### RF-003: Alterar a Tarefa para Concluído
+
+**Descrição**: O sistema deve permitir alterar a tarefa para concluída
+**Prioridade**: Média.
+**Versão**: 1.0
+**Data**: 2026-04-10
+**Rastreabilidade**: Derivado da necessidade do stakeholder NS-001
+
+**Critérios de Aceitação**:
+- [ ] Usuários pode alterar a tarefa para concluída
+- [ ] Tarefas podem retornar para não cocluídas
+- [ ] Visualização filtrada por status (concluídas e não-concluídos)
+
 ### 3.2 Requisitos Não-Funcionais
 
 #### RNF-001: Desempenho
@@ -102,7 +115,7 @@ O SGT será uma aplicação web responsiva com sincronização em nuvens.
 | Versão | Data | Autor | Modificação |
 | ------ | ---- | ----- | ----------- |
 | 1.0 | 2026-03-27 | Equipe de Análise | Versão inicial do Documento |
-
+| 1.1 | 2026-04-10 | Equipe de Desenvolvimento | Inclusão da RF003 |
 
 ### 4.2 Rastreabilidade
 
@@ -113,6 +126,10 @@ Infográfico de Rastreabilidade do Requisito
 graph LR
 
    NS001["NS-001: Necessidade StakeHolder"] --> RF001["RF-001: Criação Tarefas"] 
-   RF001 --> TC001["TC-001: Teste de Criaçao"]
+   RF001 --> TC001["TC-001: Teste de Criação"]
 
 ``` 
+
+## 5 - Aprovação
+
+###
